@@ -1,5 +1,5 @@
 {
-  "name": "postcss-inline-svg",
+  "name": "postcss-svg-load",
   "version": "5.0.0",
   "description": "PostCSS plugin to reference an SVG file and control its attributes with CSS syntax",
   "keywords": [
@@ -7,7 +7,8 @@
     "css",
     "postcss-plugin",
     "svg",
-    "inline"
+    "inline",
+    "svg-load"
   ],
   "main": "lib/index.js",
   "files": [
@@ -27,27 +28,27 @@
       "git add"
     ]
   },
-  "author": "Bogdan Chadkin <trysound@yandex.ru>",
+  "author": "Birk Skyum <birkskyum@pm.me>, Bogdan Chadkin <trysound@yandex.ru>",
   "license": "MIT",
-  "repository": "TrySound/postcss-inline-svg",
+  "repository": "birkskyum/postcss-svg-load",
   "bugs": {
-    "url": "https://github.com/TrySound/postcss-inline-svg/issues"
+    "url": "https://github.com/birkskyum/postcss-svg-load/issues"
   },
-  "homepage": "https://github.com/TrySound/postcss-inline-svg",
+  "homepage": "https://github.com/birkskyum/postcss-svg-load",
   "dependencies": {
-    "css-select": "^3.1.0",
-    "dom-serializer": "^1.1.0",
-    "htmlparser2": "^5.0.1",
-    "postcss-value-parser": "^4.0.0"
+    "css-select": "^5.1.0",
+    "dom-serializer": "^2.0.0",
+    "htmlparser2": "^8.0.1",
+    "postcss-value-parser": "^4.2.0"
   },
   "peerDependencies": {
     "postcss": "^8.1.4"
   },
   "devDependencies": {
-    "husky": "^4.3.0",
-    "jest": "^26.6.1",
-    "lint-staged": "^10.5.0",
-    "postcss": "^8.1.4",
-    "prettier": "^2.1.2"
+    "husky": "^8.0.3",
+    "jest": "^29.3.1",
+    "lint-staged": "^13.1.0",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.2"
   }
 }
